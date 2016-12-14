@@ -1,0 +1,150 @@
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\csc.exe
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\System.Collections.Immutable.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\vbc.exe
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\VBCSCompiler.exe
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\roslyn\VBCSCompiler.exe.config
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\WalletManagerApp.dll.config
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\WalletManagerApp.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\WalletManagerApp.pdb
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Antlr3.Runtime.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\EntityFramework.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\EntityFramework.SqlServer.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Google.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Newtonsoft.Json.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Owin.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Net.Http.Formatting.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Helpers.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Http.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Http.WebHost.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Mvc.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Optimization.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Razor.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.Deployment.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.Razor.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\WebGrease.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Helpers.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Mvc.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Optimization.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Razor.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.Deployment.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.Razor.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Antlr3.Runtime.pdb
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Newtonsoft.Json.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Net.Http.Formatting.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Http.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\System.Web.Http.WebHost.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\EntityFramework.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\EntityFramework.SqlServer.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Google.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\obj\Debug\WalletManagerApp.csprojResolveAssemblyReference.cache
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\obj\Debug\WalletManagerApp.dll
+c:\users\u0174315\documents\visual studio 2015\Projects\WalletManagerApp\WalletManagerApp\obj\Debug\WalletManagerApp.pdb
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\csc.exe
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\vbc.exe
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\VBCSCompiler.exe
+C:\Git\WalletManagerApp\WalletManagerApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Git\WalletManagerApp\WalletManagerApp\bin\WalletManagerApp.dll.config
+C:\Git\WalletManagerApp\WalletManagerApp\bin\WalletManagerApp.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\WalletManagerApp.pdb
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Antlr3.Runtime.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\EntityFramework.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\EntityFramework.SqlServer.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Newtonsoft.Json.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Owin.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Net.Http.Formatting.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Helpers.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Http.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Http.WebHost.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Mvc.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Optimization.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Razor.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.Deployment.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.Razor.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\WebGrease.dll
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Helpers.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Mvc.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Optimization.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Razor.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.Deployment.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.WebPages.Razor.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Antlr3.Runtime.pdb
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Newtonsoft.Json.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Net.Http.Formatting.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Http.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\System.Web.Http.WebHost.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\EntityFramework.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\EntityFramework.SqlServer.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Git\WalletManagerApp\WalletManagerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Git\WalletManagerApp\WalletManagerApp\obj\Debug\WalletManagerApp.csprojResolveAssemblyReference.cache
+C:\Git\WalletManagerApp\WalletManagerApp\obj\Debug\WalletManagerApp.dll
+C:\Git\WalletManagerApp\WalletManagerApp\obj\Debug\WalletManagerApp.pdb
