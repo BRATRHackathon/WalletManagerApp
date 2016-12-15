@@ -1,10 +1,105 @@
-﻿@{
-    ViewBag.Title = "Confirm Email";
+﻿@model WalletManagerApp.Models.WalletViewModel
+@{
+    ViewBag.Title = "Create Wallet";
 }
 
 <h2>@ViewBag.Title.</h2>
-<div>
-    <p>
-        Thank you for confirming your email. Please @Html.ActionLink("Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
-    </p>
-</div>
+
+@using (Html.BeginForm("Create", "Wallet", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Enter your email.</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(m => m.WalletPassword, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.WalletPassword, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.WalletSeed, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextAreaFor(m => m.WalletSeed, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.WalletAddress, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.WalletAddress, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" id="btnSubmit" class="btn btn-default" value="Create wallet" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/lightwallet")
+
+    <script type="text/javascript">
+        var userModule = {
+            newAddress: function (password) {
+                if (password == '') return;
+
+                lightwallet.keystore.deriveKeyFromPassword(password, function(err, pwDerivedKey) {
+
+                    // I only want the first address
+                    global_keystore.generateNewAddress(pwDerivedKey, 1);
+
+                    var address = global_keystore.getAddresses()[0];
+
+                    $('#WalletAddress').val(address);
+                })
+            },
+            showElements: function(elementsToShow) {
+                elementsToShow.forEach(function (item) {
+                    $(item).show();
+                });
+            },
+            hideElements: function (elementsToHide) {
+                elementsToHide.forEach(function (item) {
+                    $(item).hide();
+                });
+            },
+            createWallet: function (walletPassword, hiddenElements) {
+                var randomSeed = lightwallet.keystore.generateRandomSeed();
+
+                var password = walletPassword;
+
+                $('#WalletSeed').val(randomSeed);
+
+                this.showElements(hiddenElements);
+
+                lightwallet.keystore.deriveKeyFromPassword(password, function (err, pwDerivedKey) {
+
+                    global_keystore = new lightwallet.keystore(
+                      randomSeed,
+                      pwDerivedKey);
+
+                    window.modules.userModule.newAddress(password);
+                })
+            },
+            setup: function () {
+                
+                var elementsToHide = [
+                    $('#WalletSeed').parents('div[class="form-group"]'),
+                    $('#WalletAddress').parents('div[class="form-group"]')
+                ];
+
+                this.hideElements(elementsToHide);
+
+                $('#btnSubmit').click(function (evt) {
+                    evt.preventDefault();
+                    
+                    window.modules.userModule.createWallet($('#WalletPassword').val(), elementsToHide);
+                });
+            }
+        };
+
+        window.modules.userModule = userModule;
+        window.modules.userModule.setup();
+    </script>
+}

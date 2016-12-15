@@ -172,10 +172,8 @@ namespace WalletManagerApp.Controllers
                 if (result.Succeeded)
                 {
                     string callbackUrl = await SendEmailConfirmationTokenAsync(user.Id, "Confirm your account");
-
-                    ViewBag.Message = "Check your email and confirm your account, you must be confirmed befor you can log in.";
                     
-                    return View("Info");
+                    return RedirectToAction("Index", "Home", new { message = "Check your email and confirm your account, you must be confirmed before you can log in." });
                 }
                 AddErrors(result);
             }
