@@ -8,6 +8,8 @@ namespace WalletManagerApp.Models
 {
     public class WalletViewModel
     {
+        public string UserId { get; set; }
+
         [Display(Name = "Wallet password")]
         public string WalletPassword { get; set; }
 

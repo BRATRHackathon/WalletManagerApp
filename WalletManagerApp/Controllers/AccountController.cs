@@ -192,7 +192,25 @@ namespace WalletManagerApp.Controllers
                 return View("Error");
             }
             var result = await UserManager.ConfirmEmailAsync(userId, code);
-            return View(result.Succeeded ? "ConfirmEmail" : "Error");
+
+            var viewModel = new WalletViewModel { UserId = userId };
+
+            return View(result.Succeeded ? "ConfirmEmail" : "Error", viewModel);
+        }
+
+        [AllowAnonymous]
+        public ActionResult SaveConfirm(WalletViewModel formModel)
+        {
+            ApplicationDbContext dbContext = new ApplicationDbContext();
+
+            var user = dbContext.Users.Find(formModel.UserId);
+
+            user.WalletAddress = formModel.WalletAddress;
+            user.WalletSeed = formModel.WalletSeed;
+
+            dbContext.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
         }
 
         //

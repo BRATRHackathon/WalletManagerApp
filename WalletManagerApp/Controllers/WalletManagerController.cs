@@ -8,7 +8,7 @@ using WalletManagerApp.Models;
 
 namespace WalletManagerApp.Controllers
 {
-    public class WalletController : ApiController
+    public class WalletManagerController : ApiController
     {
         //http://localhost:46664/api/WalletManager/GetWalletByEmail?email=danielctrl@gmail.com
         public IHttpActionResult GetWalletByEmail(string email)
@@ -19,7 +19,6 @@ namespace WalletManagerApp.Controllers
 
             if (string.IsNullOrWhiteSpace(wallet))
                 return Json("Nada encontrado");
-            //return Content(HttpStatusCode.NoContent, "");
 
             return Json(wallet);
         }
