@@ -1,11 +1,11 @@
 ﻿@model WalletManagerApp.Models.WalletViewModel
 @{
-    ViewBag.Title = "Get wallet data";
+    ViewBag.Title = "Create a new wallet";
 }
 
-<h2>@ViewBag.Title.</h2>
+<h2>Create a new wallet for your account.</h2>
 
-@using (Html.BeginForm("Create", "Wallet", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+@using (Html.BeginForm("SaveConfirm", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
     @Html.AntiForgeryToken()
     @Html.HiddenFor(x => x.UserId)
@@ -32,7 +32,7 @@
     </div>
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" id="btnSubmit" class="btn btn-default" value="Get wallet data" />
+            <input type="submit" id="btnSubmit" class="btn btn-default" value="Create wallet" />
         </div>
     </div>
 }
@@ -94,8 +94,19 @@
 
                 $('#btnSubmit').click(function (evt) {
                     evt.preventDefault();
+
+                    if ($(this).val() == "Save") {
+                        $($(".form-horizontal")[0]).submit();
+                        return;
+                    }
+
                     
                     window.modules.userModule.createWallet($('#WalletPassword').val(), elementsToHide);
+
+                    $(this).val("Save");
+                    $("#WalletSeed").prop('readonly', true);
+                    $("#WalletAddress").prop('readonly', true);
+                    userModule.hideElements([$('#WalletPassword').parents('div[class="form-group"]')])
                 });
             }
         };

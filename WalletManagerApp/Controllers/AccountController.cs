@@ -205,7 +205,7 @@ namespace WalletManagerApp.Controllers
 
             var user = dbContext.Users.Find(formModel.UserId);
 
-            user.WalletAddress = formModel.WalletAddress;
+            user.WalletAddress = "0x" + formModel.WalletAddress;
             user.WalletSeed = formModel.WalletSeed;
 
             dbContext.SaveChanges();
