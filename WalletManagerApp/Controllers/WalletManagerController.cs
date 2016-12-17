@@ -18,9 +18,9 @@ namespace WalletManagerApp.Controllers
             var wallet = (new ApplicationDbContext()).Users.Where(x => x.Email == email).Select(x => x.WalletAddress).FirstOrDefault();
 
             if (string.IsNullOrWhiteSpace(wallet))
-                return Json("Nada encontrado");
+                return NotFound();
 
-            return Json(wallet);
+            return Ok(wallet);
         }
 
         //http://localhost:46664/api/WalletManager/GetEmailByWallet?wallet=0x11
@@ -29,11 +29,11 @@ namespace WalletManagerApp.Controllers
             var email = (new ApplicationDbContext()).Users.Where(x => x.WalletAddress == wallet).Select(x => x.Email).FirstOrDefault();
 
             if (string.IsNullOrWhiteSpace(email))
-                return Json("Nada encontrado");
+                return NotFound();
             //return Content(HttpStatusCode.NoContent, "");
 
             HttpContext.Current.Response.AddHeader("Access-Control-Allow-Origin", "*");
-            return Json(email);
+            return Ok(email);
         }
     }
 }
