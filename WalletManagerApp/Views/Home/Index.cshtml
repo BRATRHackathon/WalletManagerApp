@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Thomson Reuters - Wallet Manager";
 }
 
 @if (!string.IsNullOrEmpty(ViewBag.message))
@@ -14,8 +14,34 @@
     </div>
     </text>
 }
+<script>
 
+    function asketh(addr) {
+        $.ajax({
+            url: 'https://blockone.thomsonreuters.com/dapp-services/v1/send/100/ether-to/0x' + addr + '/on/edgware',
+            success: function () {
+                $("#balance").html('[1 ETH]');
+            }
+        });
+    };
+
+    function loadbalance(wallet) {}
+</script>
+<h1> Wallets: </h1>
 <div class="jumbotron">
+    @if (Request.IsAuthenticated)
+    {
+            <div class="row">
+                <div class="col-sm-6" id="wallet">@ViewBag.WalletAddr</div>
+                <div class="col-sm-3" >@ViewBag.WalletSeed ...</div>
+                <div class="col-sm-3" id="balance">[]</div>
+                <div class="col-sm-3"><button onclick="asketh('@ViewBag.WalletAddr')">+1</button></div>
+            </div>
+            <script> loadbalance('@ViewBag.WalletAddr'); </script>        
+    }
+    else
+    {
     @*<h1>Welcome to Wallet Manager</h1>*@
     <p class="lead">Welcome to Wallet Manager</p>
+    }
 </div>
