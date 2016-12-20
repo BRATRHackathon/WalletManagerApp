@@ -26,7 +26,18 @@
                 web3.setProvider(new Web3.providers.HttpProvider("http://bc.saleh.dev.int.thomsonreuters.com:8545"));
                 var balance = web3.fromWei(web3.eth.getBalance('@ViewBag.WalletAddr'), "ether");
                 $("#balance").html("ETH: " + balance + "");
-                if (balance < 1) $("#balance").append(' <a target="_new" href="https://blockone.thomsonreuters.com/dapp-services/v1/send/100/ether-to/' + '@ViewBag.WalletAddr' + '/on/edgware">+1</a>');
+                var loadoneeth = function () {
+                    $.ajax({
+                        headers: {
+                            "wallet": "@ViewBag.WalletAddr"
+                        },
+                        url: 'http://localhost:8080/loadone',
+                        success: function () {
+                            window.location.reload();
+                        }
+                    });
+                }
+                if (balance < 1) $("#balance").append('<button onclick="loadoneeth()">+1</button>');
             </script>
         }
             <h1> Wallets: </h1>
