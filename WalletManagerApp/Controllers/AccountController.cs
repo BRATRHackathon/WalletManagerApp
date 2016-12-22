@@ -61,6 +61,57 @@ namespace WalletManagerApp.Controllers
             return View();
         }
 
+        [HttpPost]
+        [AllowAnonymous]        
+        public async Task<ActionResult> ValidateLogin(string email, string password)
+        {
+            // Require the user to have a confirmed email before they can log on.
+            var user = UserManager.Find(email, password);
+            if (user != null)
+            {
+                if (!await UserManager.IsEmailConfirmedAsync(user.Id))
+                {
+                    string callbackUrl = await SendEmailConfirmationTokenAsync(user.Id, "Confirm your account-Resend");
+
+                    // Uncomment to debug locally  
+                    // ViewBag.Link = callbackUrl;
+                    return this.Json("You must have a confirmed email to log on. "
+                                         + "The confirmation token has been resent to your email account.");
+                }
+            }
+
+            // This doesn't count login failures towards account lockout
+            // To enable password failures to trigger account lockout, change to shouldLockout: true
+            var result = await SignInManager.PasswordSignInAsync(email, password, false, shouldLockout: false);
+            switch (result)
+            {
+                case SignInStatus.Success:
+                    {
+                        HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.OK;
+                        if (string.IsNullOrEmpty(user.WalletAddress))
+                            return this.Json("No Wallet");
+
+                        return this.Json(user.WalletAddress);
+                    }                    
+                case SignInStatus.LockedOut:
+                    {
+                        HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.InternalServerError;
+                        return this.Json("lockout");
+                    }
+                case SignInStatus.RequiresVerification:
+                    {
+                        HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.InternalServerError;
+                        return this.Json("SendCode");
+                    }
+                case SignInStatus.Failure:
+                default:
+                    {
+                        HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.NotFound;
+                        return this.Json(false);
+                    }
+            }
+        }
+
         //
         // POST: /Account/Login
         [HttpPost]
